@@ -1,0 +1,5 @@
+node_modules
+package-lock.json
+docker/02-desafio-nginx/mysql
+docker/02-desafio-nginx/node/package-lock.json
+docker/02-desafio-nginx/node/node_modules

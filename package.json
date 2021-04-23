@@ -1,0 +1,29 @@
+{
+  "name": "curso-full-cycle2",
+  "version": "1.0.0",
+  "description": "Repositório com os arquivos do Curso Full Cycle 02 da Code Education",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gihovani/curso-full-cycle2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gihovani/curso-full-cycle2/issues"
+  },
+  "homepage": "https://github.com/gihovani/curso-full-cycle2#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "husky": "^6.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
