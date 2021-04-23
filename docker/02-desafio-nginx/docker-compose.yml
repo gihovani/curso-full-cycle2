@@ -20,6 +20,7 @@ services:
       context: ./node
     image: gihovani/node-gg2
     container_name: node-gg2
+    entrypoint: dockerize -wait tcp://db-gg2:3306 -timeout 20s /usr/src/app/docker-entrypoint.sh node index.js
     tty: true
     volumes:
       - ./node/:/usr/src/app
