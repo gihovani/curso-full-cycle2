@@ -13,3 +13,7 @@ cd docker/02-desafio-nginx
 chmod +x node/docker-entrypoint.sh 
 docker-compose up -d  
 ```
+
+
+# Aluno 
+Gihovani Filipp <gihovani@gmail.com>
