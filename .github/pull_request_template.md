@@ -9,10 +9,9 @@ Informe aqui um breve resumo da sua alteração.
 # Lista de Controle
 
 - [ ] A nome da branch segue o padrão definido Exemplo: feature/nova-funcionalidade ou hotfix/0.1.0
-- [ ] A opção **Assignees** na PR foi preenchida com o nome do responsável da task.
-- [ ] A opção **milestone** na MR foi informada com a versão correta da qual a task vai fazer parte.
-- [ ] A label **Priority** foi preenchida
-- [ ] A label **Type** foi preenchida
+- [ ] A opção **Assignees** foi preenchida com o nome do responsável.
+- [ ] A opção **Milestone** foi informada com a versão correta.
+- [ ] A opção **Label** foi preenchida.
 
 
 ## **Observações sobre o checklist
