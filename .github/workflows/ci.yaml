@@ -32,4 +32,4 @@ jobs:
         with:
           context: ./integracao-continua/projeto-demo/
           push: true
-          tags: gihovani/fc2.0-ci-go:latest
+          tags: gihovani/fc2-projeto-demo:latest
