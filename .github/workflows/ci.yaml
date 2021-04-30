@@ -11,8 +11,14 @@ jobs:
       - uses: actions/setup-go@v2
         with:
           go-version: 1.15
-      - run: go test ./integracao-continua/projeto-demo/
+      - run: go test ./integracao-continua/projeto-demo/ -coverprofile=./integracao-continua/projeto-demo/coverage.out
       - run: go run ./integracao-continua/projeto-demo/math.go
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
